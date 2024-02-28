@@ -1,0 +1,18 @@
+.card_btn {
+    display: block;
+    margin-left: auto;
+    background-color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1.1rem;
+    border-radius: 0.7em;
+    font-weight: 400;
+    transition: transform 100ms ease;
+}
+
+.card_btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1em #0004;
+    background-color: rgb(103, 103, 180);
+    color: white;
+}

@@ -1,0 +1,16 @@
+.card_phrases {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    color: white;
+    font-family: italic;}
+
+
+.card_phrases::after {
+ content: '"';
+}
+
+.card_phrases::before {
+    content: "'";
+}
+
